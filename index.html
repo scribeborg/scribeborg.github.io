@@ -1,11 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html ng-app="sb">
+<head>
+    <meta charset="UTF-8">
+    <title>ScribeBorg</title>
 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
-<frameset rows="100%">
-  <frame src="http://dunlord.bitbucket.org/">
-  <noframes>
-    <body>Please follow <a href="http://dunlord.bitbucket.org/">link</a>.</body>
-  </noframes>
-</frameset><body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js" ></script>
+    <script type="text/javascript" src="core.js"></script>
+</head>
+<body ng-controller="SbController as sb">
 
+    <section>
+        <fieldset class="form-group">
+            <textarea ng-model="sb.code" class="form-control" placeholder="Write the text definition..." title="Code" style="height:300px" required>
+            </textarea>
+        </fieldset>
+    </section>
+    <section class="tab">
+        <ul class="nav nav-pills">
+            <li ng-class="{active: sb.isSelected('ca')}"> <a href ng-click="sb.select('ca')">Catalan</a></li>
+            <li ng-class="{active: sb.isSelected('en')}"> <a href ng-click="sb.select('en')">English</a></li>
+            <li ng-class="{active: sb.isSelected('es')}"> <a href ng-click="sb.select('es')">Spanish</a></li>
+            <li ng-class="{active: sb.isSelected('zh')}"> <a href ng-click="sb.select('zh')">Simplified Chinese</a></li>
+        </ul>
+    </section>
+
+    <h1>Translated result: </h1>
+
+    {{sb.translated}}
+
+</body>
 </html>
