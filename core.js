@@ -18,6 +18,7 @@
         editor.setValue(this.code, -1);
         editor.getSession().on('change', function(e) {
             self.code = editor.getValue();
+            self.lang = null;
         });
         editor.focus();
 
