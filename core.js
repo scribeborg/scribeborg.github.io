@@ -6,10 +6,11 @@
 
     var app = angular.module("sb", []);
 
-    app.controller("SbController", ['$http', function ($http) {
+    app.controller("SbController", ['$http', '$scope', function ($http, $scope) {
 
         this.code = "{\n    \"head\":\"run\",\n    \"modifiers\":[\"present\"],\n    \"phraseType\":\"Verb\",\n    \"complements\":[\n        {\n            \"type\":\"Subject\",\n            \"body\": {\n                \"modifiers\":[\"indefinite\", \"feminine\"],\n                \"phraseType\":\"Noun\",\n                \"head\":\"boy\"\n            }\n        }\n    ]\n}";
         this.translated = "";
+        this.lang = "";
 
         var self = this;
         var editor = ace.edit("editor");
@@ -18,7 +19,9 @@
         editor.setValue(this.code, -1);
         editor.getSession().on('change', function(e) {
             self.code = editor.getValue();
-            self.lang = null;
+            self.lang = "";
+            self.translated = "";
+            $scope.$apply();
         });
         editor.focus();
 
