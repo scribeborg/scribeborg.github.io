@@ -11,6 +11,16 @@
         this.code = "{\n    \"head\":\"run\",\n    \"modifiers\":[\"present\"],\n    \"phraseType\":\"Verb\",\n    \"complements\":[\n        {\n            \"type\":\"Subject\",\n            \"body\": {\n                \"modifiers\":[\"indefinite\", \"feminine\"],\n                \"phraseType\":\"Noun\",\n                \"head\":\"boy\"\n            }\n        }\n    ]\n}";
         this.translated = "";
 
+        var self = this;
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/clouds");
+        editor.getSession().setMode("ace/mode/json");
+        editor.setValue(this.code, -1);
+        editor.getSession().on('change', function(e) {
+            self.code = editor.getValue();
+        });
+        editor.focus();
+
         this.select = function(newLang) {
 
             this.lang = newLang;

@@ -6,30 +6,46 @@
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js" ></script>
     <script type="text/javascript" src="core.js"></script>
+    <script src="src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+
+    <style type="text/css" media="screen">
+        body {
+            overflow: hidden;
+        }
+
+        #editor {
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
 </head>
 <body ng-controller="SbController as sb">
 
-    <section>
-        <fieldset class="form-group">
-            <textarea ng-model="sb.code" class="form-control" placeholder="Write the text definition..." title="Code" style="height:300px" required>
-            </textarea>
-        </fieldset>
-    </section>
-    <section class="tab">
-        <ul class="nav nav-pills">
-            <li ng-class="{active: sb.isSelected('ca')}"> <a href ng-click="sb.select('ca')">Catalan</a></li>
-            <li ng-class="{active: sb.isSelected('en')}"> <a href ng-click="sb.select('en')">English</a></li>
-            <li ng-class="{active: sb.isSelected('es')}"> <a href ng-click="sb.select('es')">Spanish</a></li>
-            <li ng-class="{active: sb.isSelected('zh')}"> <a href ng-click="sb.select('zh')">Simplified Chinese</a></li>
-        </ul>
-    </section>
+<div class="container-fluid wrapper">
 
-    <h1>Translated result: </h1>
+    SCRIBEBORG
+    <div class="row-fluid columns content">
+                <pre id="editor" class="span12 content-area"></pre>
+    </div>
 
-    {{sb.translated}}
+    <div class="footer">
+        <section class="tab">
+            <ul class="nav nav-pills">
+                <li ng-class="{active: sb.isSelected('ca')}"> <a href ng-click="sb.select('ca')">Català</a></li>
+                <li ng-class="{active: sb.isSelected('en')}"> <a href ng-click="sb.select('en')">English</a></li>
+                <li ng-class="{active: sb.isSelected('es')}"> <a href ng-click="sb.select('es')">Español</a></li>
+                <li ng-class="{active: sb.isSelected('zh')}"> <a href ng-click="sb.select('zh')">简化字</a></li>
+            </ul>
+        </section>
+
+        {{sb.translated}}
+    </div>
+</div>
 
 </body>
 </html>
