@@ -31,7 +31,7 @@
             this.translated = "...";
             var self = this;
             var promise = $http({
-                url: "http://docker.w3d.cc/scribe/" + newLang + "/",
+                url: "http://docker.bryghts.com/scribe/" + newLang + "/",
                 method: "POST",
                 data: this.code,
                 headers: {
