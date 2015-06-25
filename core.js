@@ -8,7 +8,7 @@
 
     app.controller("SbController", ['$http', '$scope', function ($http, $scope) {
 
-        this.code = "{\n    \"head\":\"run\",\n    \"modifiers\":[\"present\"],\n    \"phraseType\":\"Verb\",\n    \"complements\":[\n        {\n            \"type\":\"Subject\",\n            \"body\": {\n                \"modifiers\":[\"indefinite\", \"feminine\"],\n                \"phraseType\":\"Noun\",\n                \"head\":\"boy\"\n            }\n        }\n    ]\n}";
+        this.code = "{\n    \"head\":\"run\",\n    \"modifiers\":[\"present\"],\n    \"phraseType\":\"Verb\",\n    \"complements\":[\n        {\n            \"modifiers\":[\"indefinite\", \"feminine\"],\n            \"phraseType\":\"Noun\",\n                \"head\":\"boy\"\n        }\n    ]\n}";
         this.translated = "";
         this.lang = "";
 
@@ -32,6 +32,7 @@
             var self = this;
             var promise = $http({
                 url: "http://docker.bryghts.com/scribe/" + newLang + "/",
+                //url: "http://localhost:9001/scribe/" + newLang + "/",
                 method: "POST",
                 data: this.code,
                 headers: {
