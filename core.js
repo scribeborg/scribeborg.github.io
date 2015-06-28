@@ -16,7 +16,7 @@
         var self = this;
         var editor = ace.edit("editor");
         editor.setTheme("ace/theme/clouds");
-        editor.getSession().setMode("ace/mode/json");
+//        editor.getSession().setMode("ace/mode/json");
         editor.setValue(this.code, -1);
         editor.getSession().on('change', function(e) {
             self.code = editor.getValue();
