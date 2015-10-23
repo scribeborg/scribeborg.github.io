@@ -1,1 +1,26 @@
-Hello
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+    </script>
+
+</head>
+<body>
+    <script type="text/javascript" src="./js/scala-js-tutorial-fastopt.js"></script>
+    <script type="text/javascript" src="./js/scala-js-tutorial-jsdeps.js"></script>
+    <script type="text/javascript">
+      tutorial.webapp.TutorialApp().main();
+    </script>
+
+    <h1>Hello World</h1>
+
+</body>
+</html>
