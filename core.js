@@ -43,7 +43,7 @@
 
             promise.success(function(data){
                 //self.translated = data;
-                sjs.Main.setTranslated(self, data);
+                sjs.Main().setTranslated(self, data);
             });
 
             promise.error(function(data){
