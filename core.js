@@ -31,7 +31,7 @@
             this.lang = newLang;
             this.translated = "...";
             var self = this;
-            var promise = $http({
+            var promise = sjs.Main().ws($http, {
                 url: "http://docker.bryghts.com/scribes/" + newLang,
                 //url: "http://localhost:9001/scribes/" + newLang,
                 method: "POST",
