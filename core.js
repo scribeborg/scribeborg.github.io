@@ -42,7 +42,8 @@
             });
 
             promise.success(function(data){
-                self.translated = data;
+                //self.translated = data;
+                sjs.Main.setTranslated(self, data);
             });
 
             promise.error(function(data){
