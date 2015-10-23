@@ -1,0 +1,122 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Desenvolupament/own/scribeborg.github.io/word/target/scala-2.11/classes
+compile options:
+4 items
+0 -> -unchecked
+1 -> -deprecation
+2 -> -feature
+3 -> -Xplugin:/Users/dunlord/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.7/jars/scalajs-compiler_2.11.7-0.6.5.jar
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+2 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Desenvolupament/own/scribeborg.github.io/word/target/scala-2.11/classes/tutorial/webapp/TutorialApp$.class
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Desenvolupament/own/scribeborg.github.io/word/target/scala-2.11/classes/tutorial/webapp/TutorialApp.class
+binary dependencies:
+5 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Users/dunlord/.ivy2/cache/be.doeraene/scalajs-jquery_sjs0.6_2.11/jars/scalajs-jquery_sjs0.6_2.11-0.8.0.jar
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Users/dunlord/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.8.0.jar
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Users/dunlord/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.5.jar
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> /Users/dunlord/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+2 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> tutorial.webapp.TutorialApp
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> tutorial.webapp.TutorialApp$
+used names:
+24 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> <init>
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> Any
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> JSApp
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> Node
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> Predef
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> String
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> TutorialApp
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> Unit
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> append
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> appendPar
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> apply
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> body
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> document
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> dom
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> fromString
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> jQuery
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> jquery
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> js
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> org
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> package
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> scala
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> scalajs
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> tutorial
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> webapp
+product stamps:
+2 items
+/Desenvolupament/own/scribeborg.github.io/word/target/scala-2.11/classes/tutorial/webapp/TutorialApp$.class -> lastModified(1445468492000)
+/Desenvolupament/own/scribeborg.github.io/word/target/scala-2.11/classes/tutorial/webapp/TutorialApp.class -> lastModified(1445468492000)
+source stamps:
+1 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> hash(fb06e811a7d8efd25340bdcef417385ade316ebe)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1418968825000)
+/Users/dunlord/.ivy2/cache/be.doeraene/scalajs-jquery_sjs0.6_2.11/jars/scalajs-jquery_sjs0.6_2.11-0.8.0.jar -> lastModified(1422873111000)
+/Users/dunlord/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.8.0.jar -> lastModified(1422870978000)
+/Users/dunlord/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.5.jar -> lastModified(1440866762000)
+/Users/dunlord/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/dunlord/.ivy2/cache/be.doeraene/scalajs-jquery_sjs0.6_2.11/jars/scalajs-jquery_sjs0.6_2.11-0.8.0.jar -> org.scalajs.jquery.JQuery
+/Users/dunlord/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.8.0.jar -> org.scalajs.dom.raw.Node
+/Users/dunlord/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.5.jar -> scala.scalajs.js.JSApp
+/Users/dunlord/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Unit
+internal apis:
+1 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA5YJcTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDWdnER0AAZub3RpZnlzcQB+AAz5Zi34dAAEd2FpdHNxAH4ADLYEejJ0AAlhcHBlbmRQYXJzcQB+AAxGwnYtdAANJGFzSW5zdGFuY2VPZnNxAH4ADC1FCyl0AAZlcXVhbHNzcQB+AAwSDdUMdAAMYXNJbnN0YW5jZU9mc3EAfgAM0CdUiHQADHN5bmNocm9uaXplZHNxAH4ADIlFEYt0AA0kaXNJbnN0YW5jZU9mc3EAfgAMBfo8SHQABG1haW5zcQB+AAyTXqvXdAAJbm90aWZ5QWxsc3EAfgAM7OwvcHQAC1R1dG9yaWFsQXBwc3EAfgAMjyyqMHQADGlzSW5zdGFuY2VPZnNxAH4ADDT6R6J0AAI9PXNxAH4ADEYEq0x0AAVjbG9uZXNxAH4ADJ+8kAN0AAh0b1N0cmluZ3NxAH4ADFYZ7FV0AAIhPXNxAH4ADDC8Ii10AAhnZXRDbGFzc3NxAH4ADIVSCGp0AAJuZXNxAH4ADBHqr310AAJlcXNxAH4ADKZ0PmB0ABYkanMkZXhwb3J0ZWQkbWV0aCRtYWluc3EAfgAMDEqiNHQAAiMjc3EAfgAMvgFnznQACGZpbmFsaXplc3EAfgAM5FEt03QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAG3R1dG9yaWFsLndlYmFwcC5UdXRvcmlhbEFwcHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AXQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBkc3EAfgBdAXVxAH4AQAAAAABwc3EAfgBdAXVxAH4AQAAAAABwc3EAfgBdAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABUpTQXBwc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBjc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNxAH4AfHQAB3NjYWxhanNzcQB+AHx0AAJqc3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB9c3EAfgBwdAAGT2JqZWN0c3EAfgB0c3EAfgB3dXEAfgB6AAAAA3NxAH4AfHQABGphdmFzcQB+AHx0AARsYW5ncQB+AIVzcQB+AHB0AANBbnlzcQB+AHRzcQB+AHd1cQB+AHoAAAACc3EAfgB8cQB+AH9xAH4AhXBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAPdHV0b3JpYWwud2ViYXBwc3EAfgCXdAAIdHV0b3JpYWxzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVCMos2CdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPsG6BGn2O/SU0C9zvQXOFreMW6+
+external apis:
+0 items
+source infos:
+1 items
+/Desenvolupament/own/scribeborg.github.io/word/src/main/scala/tutorial/webapp/TutorialApp.scala -> 
+AAAAAAAAAAA=
+compilations:
+8 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyHELp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyZMP11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyZpGR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyZ2s91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyffTF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyiJrx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyilGp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUIyizYJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9EZXNlbnZvbHVwYW1lbnQvb3duL3NjcmliZWJvcmcuZ2l0aHViLmlvL3dvcmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
