@@ -1,0 +1,5 @@
+(function() {
+
+         sjs.Core().main();
+
+})();

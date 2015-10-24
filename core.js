@@ -31,15 +31,7 @@
             this.lang = newLang;
             this.translated = "...";
             var self = this;
-            var promise = sjs.Main().ws($http, {
-                url: "http://docker.bryghts.com/scribes/" + newLang,
-                //url: "http://localhost:9001/scribes/" + newLang,
-                method: "POST",
-                data: this.code,
-                headers: {
-                    'Content-Type': 'application/scribescript'
-                }
-            });
+            var promise = sjs.Main().requestTranslation($http, newLang, this.code);
 
             promise.success(function(data){
                 //self.translated = data;
