@@ -1,5 +1,5 @@
 (function() {
 
-         sjs.Core().main();
+         sjs.pages.side.ScribescriptIDE().main();
 
 })();
